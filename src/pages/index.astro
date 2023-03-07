@@ -1,0 +1,22 @@
+---
+import "bulma/css/bulma.css";
+import Row from '../components/Row.astro';
+---
+
+<html lang="en" hfull>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Browser Fetch</title>
+	</head>
+	<body grid place-items-center hfull>
+		<div class="box">
+			<Row key="Browser" value="Google Chrome 110.0.5481.178 (based on Chromium 110.0.5481.178)"></Row>
+			<Row key="Platform" value="Windows 15.0.0"></Row>
+			<Row key="Bitness" value="64"></Row>
+			<Row key="Architecture" value="x86"></Row>
+		</div>
+	</body>
+</html>
